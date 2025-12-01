@@ -45,6 +45,8 @@ web2/
 ConceptosyEsteticaKemia.md
 *.md
 !README.md
+!CHANGELOG.md
+!ESTRUCTURA-PROYECTO.md
 
 # Archivos HTML antiguos/obsoletos (ya eliminados, mantenidos aquí por referencia)
 # index.html (versión antigua - duplicado de WebKemiaFTP/index.html)
