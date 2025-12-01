@@ -1,0 +1,20 @@
+{
+  "name": "kemia-web",
+  "version": "1.0.0",
+  "description": "KEMIA - Alquimia Musical Website",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "deploy:production": "node scripts/deploy.js production",
+    "fix-permissions": "node scripts/fix-permissions.js",
+    "check-permissions": "node scripts/check-permissions.js"
+  },
+  "keywords": ["kemia", "music", "artist", "website"],
+  "author": "KEMIA",
+  "license": "MIT",
+  "dependencies": {
+    "basic-ftp": "^5.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
+

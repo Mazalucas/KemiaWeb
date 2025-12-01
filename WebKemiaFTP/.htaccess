@@ -1,0 +1,12 @@
+# KEMIA Website - Basic .htaccess for static HTML
+# Updated: 2025-01-08
+
+# Prevent directory listing
+Options -Indexes
+
+# Force UTF-8 encoding
+AddDefaultCharset UTF-8
+
+# Set index file
+DirectoryIndex index.html index.htm
+

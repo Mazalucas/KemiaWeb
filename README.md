@@ -1,9 +1,10 @@
-# 🌐 KEMIA - Entre Mundos | AI Agents Studio
+# 🌐 KEMIA - Entre Mundos | Sitio Web Oficial
 
 > **Una entidad artística que habita entre el arte, la tecnología, la narrativa, lo simbólico y lo humano**
 
 [![Website](https://img.shields.io/badge/Website-KEMIA-00ffff?style=for-the-badge&logo=glitch)](https://kemia.art)
 [![Status](https://img.shields.io/badge/Status-Live-00ff41?style=for-the-badge)](https://kemia.art)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Mazalucas/KemiaWeb)
 [![License](https://img.shields.io/badge/License-MIT-ff00ff?style=for-the-badge)](LICENSE)
 
 ---
@@ -20,12 +21,26 @@ KEMIA no es solo una artista: es una **entidad**, una **red simbiótica**, una *
 
 ---
 
+## 🌐 **Sobre Este Proyecto**
+
+Este repositorio contiene el **sitio web oficial de KEMIA** ([kemia.art](https://kemia.art)), una plataforma web moderna que presenta la identidad artística, obra musical y proyectos de KEMIA. El sitio está construido con tecnologías web estándar (HTML5, CSS3, JavaScript) y está optimizado para SEO, accesibilidad y rendimiento.
+
+**Tecnologías principales:**
+- HTML5 semántico
+- CSS3 con diseño responsive
+- JavaScript vanilla (sin frameworks)
+- PWA (Progressive Web App)
+- SEO optimizado con meta tags y structured data
+- Formulario de contacto con EmailJS
+
+---
+
 ## 🌐 **Sitio Web KEMIA**
 
 ### **📍 Enlaces Directos**
 - **🌐 Sitio Web Principal**: [https://kemia.art](https://kemia.art)
 - **📱 PWA**: Instalable como app móvil
-- **🎨 Repositorio**: [GitHub Repository](https://github.com/your-username/kemia-web)
+- **🎨 Repositorio**: [GitHub Repository](https://github.com/Mazalucas/KemiaWeb)
 
 ### **🎯 Características del Sitio**
 - **Estética Cyberpunk/Glitch** con paleta neón (cian, magenta, púrpura)
@@ -45,9 +60,21 @@ KEMIA no es solo una artista: es una **entidad**, una **red simbiótica**, una *
 
 ---
 
-## 🤖 **Equipo de Agentes AI**
+## 🛠️ **Despliegue**
 
-Este proyecto utiliza un **equipo especializado de agentes AI** para diferentes aspectos del desarrollo y gestión del proyecto KEMIA.
+El sitio se despliega mediante FTP usando el script `deploy.js`. Las credenciales FTP se configuran mediante variables de entorno (ver `.env.example` o `FTP_CONFIG.txt` para referencia).
+
+```bash
+npm run deploy
+```
+
+**Nota:** Las credenciales FTP no se incluyen en el repositorio por seguridad. Configúralas localmente antes de desplegar.
+
+---
+
+## 🤖 **Equipo de Agentes AI** (Documentación)
+
+Este proyecto incluye documentación sobre un **equipo especializado de agentes AI** para diferentes aspectos del desarrollo y gestión del proyecto KEMIA. Estos agentes están documentados en la carpeta `agents/` y pueden ser utilizados como guías de desarrollo.
 
 ### **🎨 Agentes de Diseño**
 - **`design/brand-guardian.md`** - Mantiene la identidad visual consistente
@@ -175,8 +202,8 @@ Este proyecto utiliza un **equipo especializado de agentes AI** para diferentes 
 ### **Instalación Rápida**
    ```bash
 # Clonar repositorio
-git clone https://github.com/your-username/kemia-web.git
-cd kemia-web
+git clone https://github.com/Mazalucas/KemiaWeb.git
+cd KemiaWeb
 
 # Instalar dependencias (si las hay)
 npm install
@@ -189,23 +216,32 @@ python -m http.server 8000
 
 ### **Estructura del Proyecto**
 ```
-kemia-web/
-├── index.html              # Página principal
-├── styles.css              # Estilos CSS
-├── script.js               # JavaScript interactivo
-├── site.webmanifest        # PWA manifest
-├── sitemap.xml             # SEO sitemap
-├── robots.txt              # SEO robots
-├── assets/                 # Recursos multimedia
-│   ├── images/            # Imágenes y favicons
-│   ├── audio/             # Archivos de audio
-│   └── fonts/             # Fuentes personalizadas
-├── agents/                 # Equipo de agentes AI
-│   ├── design/            # Agentes de diseño
-│   ├── engineering/       # Agentes de ingeniería
-│   ├── marketing/         # Agentes de marketing
-│   └── ...                # Otros equipos
-└── documentation/          # Documentación
+KemiaWeb/
+├── WebKemiaFTP/           # ✅ PRODUCCIÓN - Única fuente de verdad para deploy
+│   ├── index.html         # Página principal (v2.0 - Material Design 3)
+│   ├── styles.css         # Estilos CSS
+│   ├── script.js          # JavaScript interactivo
+│   ├── robots.txt         # SEO robots
+│   ├── sitemap.xml        # SEO sitemap
+│   ├── site.webmanifest   # PWA manifest
+│   ├── .htaccess         # Configuración Apache
+│   └── assets/            # Recursos multimedia
+│       ├── images/       # Imágenes y favicons
+│       ├── audio/        # Archivos de audio
+│       └── fonts/       # Fuentes personalizadas
+├── scripts/               # 🛠️ Scripts de utilidad
+│   ├── deploy.js         # Script de despliegue FTP
+│   ├── check-permissions.js
+│   ├── check-server.js
+│   ├── diagnose.js
+│   └── fix-permissions.js
+├── agents/                # 📚 Documentación de agentes AI
+├── documentation/         # 📚 Documentación del proyecto
+├── testing/               # 📚 Documentación de testing
+├── package.json           # Configuración Node.js
+├── .gitignore            # Configuración Git
+├── README.md             # Este archivo
+└── LICENSE               # Licencia MIT
 ```
 
 ---
@@ -276,9 +312,9 @@ kemia-web/
 - **YouTube**: [@kemia](https://youtube.com/@kemia)
 
 ### **🤖 Para Desarrolladores**
-- **Issues**: [GitHub Issues](https://github.com/your-username/kemia-web/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/kemia-web/discussions)
-- **Wiki**: [Documentación](https://github.com/your-username/kemia-web/wiki)
+- **Repositorio**: [GitHub - KemiaWeb](https://github.com/Mazalucas/KemiaWeb)
+- **Issues**: [GitHub Issues](https://github.com/Mazalucas/KemiaWeb/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Mazalucas/KemiaWeb/discussions)
 
 ---
 
