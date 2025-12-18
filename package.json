@@ -1,6 +1,6 @@
 {
   "name": "kemia-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KEMIA - Alquimia Musical Website",
   "scripts": {
     "deploy": "node scripts/deploy.js",
@@ -8,7 +8,12 @@
     "fix-permissions": "node scripts/fix-permissions.js",
     "check-permissions": "node scripts/check-permissions.js"
   },
-  "keywords": ["kemia", "music", "artist", "website"],
+  "keywords": [
+    "kemia",
+    "music",
+    "artist",
+    "website"
+  ],
   "author": "KEMIA",
   "license": "MIT",
   "dependencies": {
@@ -17,4 +22,3 @@
   },
   "devDependencies": {}
 }
-

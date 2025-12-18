@@ -6,6 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Live-00ff41?style=for-the-badge)](https://kemia.art)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Mazalucas/KemiaWeb)
 [![License](https://img.shields.io/badge/License-MIT-ff00ff?style=for-the-badge)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v1.0.1-blueviolet?style=for-the-badge)](package.json)
 
 ---
 
@@ -69,6 +70,29 @@ npm run deploy
 ```
 
 **Nota:** Las credenciales FTP no se incluyen en el repositorio por seguridad. Configúralas localmente antes de desplegar.
+
+---
+
+## 📚 **Estructura de Documentación**
+
+Para mantener la coherencia del proyecto, seguimos estas reglas de organización:
+
+### **📂 kemia-personalidad/** (Identidad & Valores)
+Aquí vive el "Alma" del proyecto. Todo lo relacionado a quién es Kemia.
+- **`KEMIA_MUSICAL_PERSONA.md`**: Definición de la voz, estilo narrativo y referentes musicales.
+- **`VALORES.md`**: (A crear) Manifiesto de intenciones y filosofía.
+- **`LORE.md`**: (A crear) Historia de fondo de la entidad.
+
+### **📂 creative/** (Producción Artística)
+Aquí vive la "Obra".
+- **`songs/`**: Conceptos, letras y estructuras de canciones.
+- **`visuals/`**: Ideas para videos, moodboards de imagen.
+
+### **📂 agents/** (El Equipo)
+- Prompts y definiciones de los agentes AI que trabajan en el proyecto.
+
+### **📂 documentation/** (Técnica)
+- Guías de implementación, arquitectura y manuales de usuario.
 
 ---
 

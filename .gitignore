@@ -47,6 +47,8 @@ ConceptosyEsteticaKemia.md
 !README.md
 !CHANGELOG.md
 !ESTRUCTURA-PROYECTO.md
+!creative/**/*.md
+!kemia-personalidad/**/*
 
 # Archivos HTML antiguos/obsoletos (ya eliminados, mantenidos aquí por referencia)
 # index.html (versión antigua - duplicado de WebKemiaFTP/index.html)
